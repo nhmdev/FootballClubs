@@ -1,0 +1,85 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB24883D-699F-4109-910D-A008BA3C829E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6E6C915-87F5-4B44-989E-07F508530DEF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Backend", "src\Backend\Backend.xproj", "{4E5D7B5E-97A8-4452-9FD9-7972A505533E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Web", "src\Web\Web.xproj", "{8806EB3F-AE3F-46DB-A39A-611A4C1D73D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E5D7B5E-97A8-4452-9FD9-7972A505533E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5D7B5E-97A8-4452-9FD9-7972A505533E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5D7B5E-97A8-4452-9FD9-7972A505533E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5D7B5E-97A8-4452-9FD9-7972A505533E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8806EB3F-AE3F-46DB-A39A-611A4C1D73D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8806EB3F-AE3F-46DB-A39A-611A4C1D73D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8806EB3F-AE3F-46DB-A39A-611A4C1D73D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8806EB3F-AE3F-46DB-A39A-611A4C1D73D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E5D7B5E-97A8-4452-9FD9-7972A505533E} = {E6E6C915-87F5-4B44-989E-07F508530DEF}
+		{8806EB3F-AE3F-46DB-A39A-611A4C1D73D6} = {E6E6C915-87F5-4B44-989E-07F508530DEF}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$2.FileWidth = 120
+		$2.TabsToSpaces = False
+		$2.inheritsScope = text/plain
+		$0.CSharpFormattingPolicy = $3
+		$3.IndentSwitchSection = True
+		$3.NewLinesForBracesInProperties = True
+		$3.NewLinesForBracesInAccessors = True
+		$3.NewLinesForBracesInAnonymousMethods = True
+		$3.NewLinesForBracesInControlBlocks = True
+		$3.NewLinesForBracesInAnonymousTypes = True
+		$3.NewLinesForBracesInObjectCollectionArrayInitializers = True
+		$3.NewLinesForBracesInLambdaExpressionBody = True
+		$3.NewLineForElse = True
+		$3.NewLineForCatch = True
+		$3.NewLineForFinally = True
+		$3.NewLineForMembersInObjectInit = True
+		$3.NewLineForMembersInAnonymousTypes = True
+		$3.NewLineForClausesInQuery = True
+		$3.SpacingAfterMethodDeclarationName = False
+		$3.SpaceAfterMethodCallName = False
+		$3.SpaceBeforeOpenSquareBracket = False
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
+		$0.StandardHeader = $4
+		$4.Text = 
+		$4.IncludeInNewFiles = True
+		$0.NameConventionPolicy = $5
+		$5.Rules = $6
+		$6.NamingRule = $7
+		$7.Name = Type Parameters
+		$7.AffectedEntity = TypeParameter
+		$7.VisibilityMask = VisibilityMask
+		$7.NamingStyle = PascalCase
+		$7.IncludeInstanceMembers = True
+		$7.IncludeStaticEntities = True
+		$7.RequiredPrefixes = $8
+		$8.String = T
+		$7.RequiredSuffixes = $9
+		$9.String = Exception
+		$0.VersionControlPolicy = $10
+		$10.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal
